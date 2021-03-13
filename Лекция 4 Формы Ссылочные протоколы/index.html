@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Пиццерия</title>
+        <link rel="icon" href="img/icon.ico">
+        <style>
+                    textarea {resize: none;}
+        </style>
+    </head>
+    <body>
+        <h1>Форма заказа пиццы</h1>
+        <form action="" method="get">
+            <label>Выберите пиццу:
+                <select name="pizza">
+                    <option name="margarita" selected>Маргарита</option>
+                    <option name="gavayskaya">Гавайская</option>
+                    <option name="meksikanskaya">Мексиканская</option>
+                    <option name="shef-pizza">Шеф-пицца</option>
+                </select>
+            </label><br><br>
+            <label>Выберите основу:<br>
+                <input name="raz" type="radio" checked>тонкий край
+            </label>
+            <label>
+                <input name="raz" type="radio">толстый край
+            </label><br><br>
+            <input type="checkbox">Разрезать пиццу<br><br>
+            <label>Номер телефона для связи<br/>
+                <input name="phone" type="tel" value="+375" required>
+            </label>
+            <p>
+                <label>Адрес доставки<br>
+                    <input type="text" name="address" required>
+                </label>
+            </p>
+            <p>
+                <label>Дополнительные пожелания<br>
+                    <textarea rows="5" cols="30" placeholder="Время доставки, код домофона и пр."></textarea>
+                </label>
+            </p>
+            <p>
+                <button type="button">Заказать</button>
+            </p>
+            Связаться с нами:<br>
+            <ul>
+                <li>
+                    <a href="tel:+375444617326">+375444617326</a>
+                </li>
+                <li>
+                    <a href="mailto:pizza@yandex.by">pizza@yandex.by</a>
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
