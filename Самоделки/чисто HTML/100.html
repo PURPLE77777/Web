@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure map</title>
+        <link rel="icon" href="img/map.jpg">
+    </head>
+    <body>
+        <h1>Карта сокровищ</h1>
+        <hr color="red"><br>
+        <img src="img/trmap.jpg" usemap="#Navigation" title="Карта">
+        <map name="Navigation">
+            <area shape="circle" coords="240,260,40" title="Корабль" href="20.html">
+            <area shape="circle" coords="350,150,50" title="Крокодил" href="40.html">
+            <area shape="circle" coords="80,250,55" title="Осьминног" href="60.html">
+            <area shape="circle" coords="135,110,35" title="Фонтан" href="80.html">
+            <area shape="circle" coords="275,105,40" title="Клад" href="100.html">
+        </map>
+        <p>Пройдено:
+            <meter value="100" max="100" low="40" high="80" optimum="100">
+        </p>
+        <hr>
+        <a href="index.html">Сначала</a>
+    </body>
+</html>
