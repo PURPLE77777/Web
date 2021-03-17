@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>НАШЕКИНО</title>
+        <link rel="icon" href="img/icon.png">
+        <style>
+            body{
+                background-image: url(img/supertyan.png);
+                background-size: cover;
+            }
+            h1{
+                color: chocolate;
+            }
+            #table1{
+                background-color: brown;
+                box-shadow: 10px 5px 3px 5px black;
+            }
+            #table2{
+                background-size: 342px 248.67px;
+                background-color: brown;
+                box-shadow: 10px 5px 3px 5px black;
+            }
+            button{
+                color: white;
+                background: #4b2a3c;
+                border: none;
+                box-shadow: none;
+            }
+        </style>
+    </head>
+    <body>
+        <header align="center"><h1>НАШЕКИНО</h1></header>
+        <div>
+            <form action="feed.html" method="GET">
+                <table id="table1" align="center" cellspacing="10" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <td colspan="2">
+                                <h3 align="center">Вход</h3>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Введите email аккаунта:
+                            </td>
+                            <td>
+                                <label><input name="email" type="email" required placeholder="Email"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Введите пароль аккаунта:
+                            </td>
+                            <td>
+                                <label><input name="password" type="password" required placeholder="Пароль"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <button type="submit">Войти</button>
+                            <td align="center">
+                                <button type="reset">Сбросить</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form><br><br>
+            <form action="feed.html" method="GET">
+                <label>
+                    <table id="table2" align="center" cellspacing="10">
+                        <thead>
+                            <tr>
+                                <td colspan="2">
+                                    <h3 align="center">Регистрация</h3>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Введите имя сервиса:
+                                </td>
+                                <td>
+                                    <label><input name="name" type="text" required placeholder="Имя"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Введите ваш email:
+                                </td>
+                                <td>
+                                    <label><input name="email" type="email" required placeholder="Email"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Придумайте пароль:
+                                </td>
+                                <td>
+                                    <label><input name="password" type="password" required placeholder="Пароль"></label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label><input name="checkbox" type="checkbox" required>Согласен с порядком обработки данных</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <button type="submit">Зарегестрироваться</button>
+                                </td>
+                                <td align="center">
+                                    <button type="reset">Сбросить</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </label>
+            </form>
+        </div>
+    </body>
+</html>
