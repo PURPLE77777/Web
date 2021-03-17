@@ -22,31 +22,46 @@
             .colortext{
                 color: red;
             }
-            .button {
-                text-align: center;
-            }
-            .button>a{
-                display: inline-block;
-	            height: 50px;
-                line-height: 50px;
-                border: 1px solid white;
-                padding: 5px;
-            }
             textarea{
                 width: 300px;
                 height: 50px;
                 resize: none;
             }
             table{
+                box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+                border-radius: 15px 0 15px 0;
+                /* border: solid 3px black; */
                 background-color: white;
+            }
+            button{
+                margin: 10px auto;
+                width: 150px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #8d82ac;
+                border: none;
+                border-radius: 30px;
+                transition: .2s;
+            }
+            button:hover{
+                box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+
+            }
+            button a{
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 10pt;
+                text-decoration: none;
+                color: #f7c3ad;
             }
     </style>
 </head>
 <body>
     <header align="center"><h1>OHAYO</h1></header>
-    <div class="button"><a href="photo-add.html" style="text-decoration: none;">Сделать новый пост</a></div>
+    <button><a href="photo-add.html">Сделать новый пост</a></button>
     <div>
-        <table border="10" cellspacing="0" cellpadding="10" align="center">
+        <table cellspacing="0" cellpadding="10" align="center">
         <thead>
                 <tr>
                     <td><h4>PURPLE</h4></td>
