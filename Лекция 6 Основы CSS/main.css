@@ -1,0 +1,45 @@
+body{
+    padding: 20px 20%;
+}
+.div{
+    width: 210mm;
+    height: 297mm;
+    background-color: whitesmoke;
+}
+.div1{
+    padding-top: 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    line-height: 0.5;
+}
+.div2{
+    margin-top: 50%;
+    text-align: center;
+    font-size: 16pt;
+    line-height: 0.5;
+}
+span{
+    quotes: "\00ab" "\00bb";
+    font-weight: bold;
+}
+span::before{
+    content: open-quote;
+}
+span::after{
+    content:close-quote;
+}
+.div3{
+    margin-top: 25%;
+    margin-left: 50%;
+    font-size: 16pt;
+    line-height: 0.2;
+}
+.p{
+    text-decoration: underline;
+}
+.div4{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 16pt;
+}
