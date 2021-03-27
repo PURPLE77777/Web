@@ -1,0 +1,48 @@
+.main{
+    width: 200px;
+    height: 20px;
+    border: 1px solid #9999ff;
+}
+.progress{
+    width: 72%;
+    height: 100%;
+    background-color: #9999ff;
+}
+.text{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+#buttom{
+    display: none;
+}
+.label1{
+    padding: 10px;
+    background-color: gray;
+    position: relative;
+    top: 15px;
+}
+img{
+    background-color: chartreuse;
+}
+.crest{
+    display: inline-block;
+    position: relative;
+    right: -75px;
+    top: 3px;
+}
+.modal{
+    display: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 280px;
+    background-color: chartreuse;
+}
+.label2{
+    position: relative;
+    right: -100px;
+    background-color: gray;
+}
+#buttom:checked~.modal{
+    display: block;
+}
