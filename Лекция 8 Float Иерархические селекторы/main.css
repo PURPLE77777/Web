@@ -1,0 +1,45 @@
+.div1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.div2{
+    display:none;
+    position: absolute;
+    border-radius: 5px;
+    width: 113px;
+    height: 15px;
+    padding: 5px;
+    top: 41%;
+    left: 60%;
+    background-color: gray;
+}
+.div1:hover+.div2{
+    display: block;
+}  
+#box{
+    display: none;
+}
+.div2 .div3{
+    display: block;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background-color: gray;
+    top: 100%;
+    left: 3%;
+    border-top: 20px solid gray;
+    border-left: 22px solid white;
+    border-right: 35px solid white;
+    border-bottom: 2px solid white;
+}
+span{
+    color: rgb(201, 59, 59);
+    background: white;
+    padding: 5px;
+    border: 2px solid black;
+}
+#box:checked~span{
+    color:white;
+    background-color: red;
+}
