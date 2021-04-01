@@ -1,0 +1,66 @@
+.menu{
+    margin: 0px auto;
+    width: 800px;
+    text-align: center;
+}
+p{
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
+.menu_lu{
+    background-color: #84acff;
+    list-style-type: none;
+}
+.menu_lu li{
+    width: 150px;
+    margin: 10px 10px 10px 0px;
+    padding: 7px;
+    background-color: #6666ff;
+    border: 2px solid blue;
+    border-radius: 1px 20px;
+    display: inline-block;
+    transition: all 0.7s ease 0s;
+}
+.menu_lu li:hover{
+    background-color: #cccccc;
+    border-radius: 20px 1px;
+}
+.menu_lu a{
+    text-decoration: none;
+    color: white;
+}
+.menu_lu li:hover a{
+    color: #6666ff;
+}
+/* .menu_lu .podmenu{
+    list-style-type: none;
+    position: relative;
+    top: 200px;
+    display: none;
+    transition: all 0.7s ease 0s;
+}
+.menu_lu li:hover .podmenu{
+    display: inline-block;
+} */
+.form{
+    width: 500px;
+    margin: 10px auto;
+} 
+.form_input{
+    width: 100%;
+    border-bottom: green;
+    padding: 10px 20px;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+hr{
+    height: 3px;
+    background: green;
+}
+.form_input-submit{
+    margin-top: 5px;
+    color: white;
+    background-color: green;
+}
