@@ -1,52 +1,62 @@
 .menu{
-    margin: 0px auto;
-    width: 800px;
-    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
 }
-p{
-    font-weight: bold;
-    font-size: 150%;
-    text-align: center;
-}
-.menu_lu{
-    background-color: #84acff;
+.main-menu{
+    height: 50px;
     list-style-type: none;
+    background-color: #6699ff;
+    text-align: center;
 }
-.menu_lu li{
-    width: 150px;
-    margin: 10px 10px 10px 0px;
-    padding: 7px;
-    background-color: #6666ff;
-    border: 2px solid blue;
+.main-menu>li{
+    margin: 8px 10px 8px 30px;
+    padding: 2px 14px 4px;
+    background-color: #4960fb;
+    border: 2px solid #071eb9;
     border-radius: 1px 20px;
     display: inline-block;
+    position: static;
     transition: all 0.7s ease 0s;
 }
-.menu_lu li:hover{
-    background-color: #cccccc;
+.main-menu #first{
+    color: #f2f2f2;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-menu>li:hover{
+    background-color: #ccc;
     border-radius: 20px 1px;
 }
-.menu_lu a{
-    text-decoration: none;
-    color: white;
+.main-menu>li:hover #first{
+    color: #0e25c0;
 }
-.menu_lu li:hover a{
-    color: #6666ff;
-}
-.menu_lu li:hover a .podmenu{
-    transition: all 0.7s ease 0s;
-    display: inline-block;
-    background-color: grey;
-    color: black;
+.podmenu{
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: auto;
     list-style-type: none;
-    position: absolute;
-    top: 100px;
 }
-.menu_lu li:hover a .podmenu .podmenu_li{
-    padding: 3px;
-    margin: 4px;
+.main-menu li:hover .podmenu{
+    display: block;
+    margin: 8px 10px 8px 0;
+    padding: 2px 14px 4px;
+    text-align: center;
 }
-.form{
+.podmenu li{
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+}
+.podmenu>li #second{
+    text-decoration: none;
+    font-size: 12pt;
+}
+/* .form{
     width: 500px;
     margin: 10px auto;
 } 
@@ -66,4 +76,4 @@ hr{
     margin-top: 5px;
     color: white;
     background-color: green;
-}
+} */
