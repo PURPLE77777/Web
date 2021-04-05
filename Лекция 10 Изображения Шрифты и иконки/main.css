@@ -1,0 +1,40 @@
+#fon{
+    margin: 0px auto;
+    width: 500px;
+    height: 500px; 
+    background-attachment: scroll;
+    background: url("img/sun.png") no-repeat center top,url("img/sea.jpg") no-repeat center bottom,url("img/sky.jpg") no-repeat center;
+    background-color: rgb(39, 39, 209);
+}
+@font-face {
+    font-family: Font;
+    src: url(font.otf);
+}
+.message{
+    font-family: Font;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    top: 50%;
+    font-size: 14pt;
+    font-weight: bold;
+}
+#botton{
+    margin: 0px auto;
+    width: 0px;
+}
+input{
+    display: none;
+}
+span{
+    color: grey;
+}
+span:hover{
+    color: blue;
+}
+input:checked + span{
+    color: red;
+}
+input:checked + span:hover{
+    opacity: 0.7;
+}

@@ -33,16 +33,19 @@ p{
 .menu_lu li:hover a{
     color: #6666ff;
 }
-/* .menu_lu .podmenu{
-    list-style-type: none;
-    position: relative;
-    top: 200px;
-    display: none;
+.menu_lu li:hover a .podmenu{
     transition: all 0.7s ease 0s;
-}
-.menu_lu li:hover .podmenu{
     display: inline-block;
-} */
+    background-color: grey;
+    color: black;
+    list-style-type: none;
+    position: absolute;
+    top: 100px;
+}
+.menu_lu li:hover a .podmenu .podmenu_li{
+    padding: 3px;
+    margin: 4px;
+}
 .form{
     width: 500px;
     margin: 10px auto;
