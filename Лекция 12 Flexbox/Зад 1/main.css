@@ -1,0 +1,40 @@
+.container{
+    width: 600px;
+    height: 452px;
+    display: flex;
+    margin: 90px auto;
+    color: white;
+    text-align: center;
+}
+
+.div1{
+    background-color: #2161cd;
+    padding: 10px;
+}
+.wrap1{
+    flex-wrap: wrap;
+}
+.div2{
+    background-color: #e2a33c;
+    padding: 10px;
+}
+.div3{
+    background-color: #00b1bb;
+    padding: 10px;
+}
+.div4{
+    background-color: #7fc4ee;
+    padding: 10px;
+}
+.wrap2{
+    flex-wrap: wrap;
+}
+.div5{
+    background-color: #26a59a;
+    padding: 10px;
+}
+.div6{
+    background-color: #005c9d;
+    padding: 10px;
+}
+
