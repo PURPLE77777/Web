@@ -100,7 +100,7 @@ span{
     input:checked~label{
         background: no-repeat url(img/crest.png) center;
     }
-    input::checked label .label-div{
+    input:checked label .label-div{
         display: none;
     }
 }
