@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background-color: blueviolet;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+i{
+    font-size: 22pt;
+}
+label{
+    position: fixed;
+    padding: 0 10px;
+    right: 0px;
+    top: 0px;
+    display: none;
+    width: 100px;
+    height: 90px;
+    flex-direction: column;
+}
+label:hover{
+    background-color: rgb(176, 138, 211);
+}
+.label-div{
+    background-color: white;
+    height: 10px;
+    margin: 9px;
+}
+input{
+    display: none;
+}
+.menu{
+    display: flex;
+}
+#sts{
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    position: relative;
+    top: 10px;
+    font-size: 16pt;
+}
+.item-menu{
+    width: 100px;
+    height: 50px;
+    padding: 20px 10px;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.item-menu:hover{
+    background-color: rgb(176, 138, 211);
+}
+.products{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.item{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+}
+.item:hover{
+    box-shadow: 0 0 15px 10px;
+}
+@media (max-width: 768px) {
+    .menu{
+        background-color: blueviolet;
+        width: 120px;
+        height: 360px;
+        position: fixed;
+        right: 0px;
+        top: 90px;
+        flex-direction: column;
+    }
+    #sts{
+        margin-right: 120px;
+    }
+    label{
+        display:flex;
+    }
+    input:not(:checked)~.menu{
+        display: none;
+    }
+    input:checked~label{
+        background: no-repeat url(img/crest.png) center;
+    }
+    input::checked label .label-div{
+        display: none;
+    }
+}
