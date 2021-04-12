@@ -66,6 +66,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: rgb(0, 0, 0, 0);
 }
 .item{
     width: 150px;
@@ -97,8 +98,11 @@ span{
     input:not(:checked)~.menu{
         display: none;
     }
-    input:checked~label{
+    /* input:checked~label{
         background: no-repeat url(img/crest.png) center;
+    } */
+    input:checked .products{
+        background-color: rgb(0, 0, 0, 0.5);
     }
     input:checked label .label-div{
         display: none;
