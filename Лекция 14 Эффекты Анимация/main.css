@@ -1,0 +1,93 @@
+#fon{
+    margin: 0px auto;
+    width: 500px;
+    height: 500px; 
+    background-attachment: scroll;
+    background-image: radial-gradient(circle at 60px 450px, #833305,#0b0288);
+}
+#fon:hover{
+    animation: moveFon 5s infinite;
+}
+#fon:hover #sun{
+    animation: moveSun 5s infinite linear;
+}
+#sea{
+    position: relative;
+    top: 168px;
+}
+#sun{
+    position: relative;
+    top: 320px;
+    left: 0px;
+}
+@keyframes moveSun {
+    from{
+        top: 320px;
+        left: 0px;
+        transform: rotate(60deg);
+    }
+    20%{
+        top: 150px;
+        left: 50px;
+        transform: rotate(120deg);
+    }
+    40%{
+        top: 30px;
+        left: 100px;
+        transform: rotate(180deg);
+    }
+    60%{
+        top: 30px;
+        left: 220px;
+        transform: rotate(240deg);
+    }
+    80%{
+        top: 150px;
+        left: 280px;
+        transform: rotate(300deg);
+    }
+    to{
+        top: 320px;
+        left: 320px;
+        transform: rotate(360deg);
+    }
+}
+@keyframes moveFon{
+    from{
+        background-image: radial-gradient(circle at 60px 450px, #833305,#0b0288);
+    }
+    20%{
+        background-image: radial-gradient(circle at 150px 250px, #d1b36c,#1f15a9);
+    }
+    40%{
+        background-image: radial-gradient(circle at 250px 150px, #fff5c4,#0473fc);
+    }
+    60%{
+        background-image: radial-gradient(circle at 300px 150px, #fff5c4,#0473fc);
+    }
+    80%{
+        background-image: radial-gradient(circle at 380px 290px, #d1b36c,#1f15a9);
+    }
+    to{
+        background-image: radial-gradient(circle at 420px 450px, #833305,#0b0288);
+    }
+}
+#botton{
+    margin: 0px auto;
+    width: 0px;
+}
+input{
+    display: none;
+}
+span{
+    color: grey;
+}
+span:hover{
+    color: blue;
+}
+input:checked + span{
+    color: red;
+}
+input:checked + span:hover{
+    opacity: 0.7;
+}
