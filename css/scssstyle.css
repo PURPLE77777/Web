@@ -1,0 +1,159 @@
+body .katalog .div-1 a, body .katalog .div-3 a, body .katalog .div-5 a, body .katalog .div-6 a {
+  height: 125px;
+  width: inherit;
+  text-decoration: none;
+  color: white;
+}
+
+body .katalog .div-1 a .katalog__fon, body .katalog .div-3 a .katalog__fon, body .katalog .div-5 a .katalog__fon, body .katalog .div-6 a .katalog__fon {
+  position: relative;
+  bottom: 18px;
+  background-color: black;
+  width: inherit;
+  height: inherit;
+}
+
+body .katalog .div-1 a .katalog__fon h3, body .katalog .div-3 a .katalog__fon h3, body .katalog .div-5 a .katalog__fon h3, body .katalog .div-6 a .katalog__fon h3 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+body .katalog .div-1 a .katalog__fon p, body .katalog .div-3 a .katalog__fon p, body .katalog .div-5 a .katalog__fon p, body .katalog .div-6 a .katalog__fon p {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  z-index: 100;
+}
+
+body .katalog .div-1 a .katalog__fon .imag, body .katalog .div-3 a .katalog__fon .imag, body .katalog .div-5 a .katalog__fon .imag, body .katalog .div-6 a .katalog__fon .imag {
+  position: relative;
+  bottom: 74px;
+  opacity: .7;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  width: inherit;
+}
+
+body .katalog .div-1 a:hover .imag, body .katalog .div-3 a:hover .imag, body .katalog .div-5 a:hover .imag, body .katalog .div-6 a:hover .imag {
+  opacity: .5;
+}
+
+body .katalog .div-2 a, body .katalog .div-4 a, body .katalog .div-7 a, body .katalog .div-8 a, body .katalog .div-9 a, body .katalog .div-10 a {
+  text-decoration: none;
+  color: white;
+  height: 250px;
+  width: inherit;
+}
+
+body .katalog .div-2 a .katalog__fon, body .katalog .div-4 a .katalog__fon, body .katalog .div-7 a .katalog__fon, body .katalog .div-8 a .katalog__fon, body .katalog .div-9 a .katalog__fon, body .katalog .div-10 a .katalog__fon {
+  position: relative;
+  bottom: 18px;
+  background-color: black;
+  width: inherit;
+  height: inherit;
+}
+
+body .katalog .div-2 a .katalog__fon h3, body .katalog .div-4 a .katalog__fon h3, body .katalog .div-7 a .katalog__fon h3, body .katalog .div-8 a .katalog__fon h3, body .katalog .div-9 a .katalog__fon h3, body .katalog .div-10 a .katalog__fon h3 {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  z-index: 100;
+}
+
+body .katalog .div-2 a .katalog__fon p, body .katalog .div-4 a .katalog__fon p, body .katalog .div-7 a .katalog__fon p, body .katalog .div-8 a .katalog__fon p, body .katalog .div-9 a .katalog__fon p, body .katalog .div-10 a .katalog__fon p {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  z-index: 100;
+}
+
+body .katalog .div-2 a .katalog__fon .imag, body .katalog .div-4 a .katalog__fon .imag, body .katalog .div-7 a .katalog__fon .imag, body .katalog .div-8 a .katalog__fon .imag, body .katalog .div-9 a .katalog__fon .imag, body .katalog .div-10 a .katalog__fon .imag {
+  position: relative;
+  bottom: 74px;
+  opacity: .7;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  width: inherit;
+}
+
+body .katalog .div-2 a:hover .imag, body .katalog .div-4 a:hover .imag, body .katalog .div-7 a:hover .imag, body .katalog .div-8 a:hover .imag, body .katalog .div-9 a:hover .imag, body .katalog .div-10 a:hover .imag {
+  opacity: .5;
+}
+
+body {
+  margin: 20px 0px;
+}
+
+body .katalog {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 350px))[4];
+      grid-template-columns: repeat(4, minmax(200px, 350px));
+  -ms-grid-rows: (125px)[2] 250px;
+      grid-template-rows: repeat(2, 125px) 250px;
+      grid-template-areas: "div-1 div-2 div-3 div-4" "div-5 div-2 div-6 div-4" "div-7 div-8 div-9 div-10";
+}
+
+body .katalog .div-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: div-1;
+}
+
+body .katalog .div-2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: div-2;
+}
+
+body .katalog .div-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: div-3;
+}
+
+body .katalog .div-4 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 4;
+  grid-area: div-4;
+}
+
+body .katalog .div-5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: div-5;
+}
+
+body .katalog .div-6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: div-6;
+}
+
+body .katalog .div-7 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: div-7;
+}
+
+body .katalog .div-8 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: div-8;
+}
+
+body .katalog .div-9 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: div-9;
+}
+
+body .katalog .div-10 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 4;
+  grid-area: div-10;
+}
