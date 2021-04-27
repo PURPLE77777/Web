@@ -1,15 +1,15 @@
 %alittle{
     a{
-        height: 125px;
-        width: inherit;
+        height: 100%;
+        width: 100%;
         text-decoration: none;
         color: white;
         .katalog__fon{
             position: relative;
             bottom: 18px;
             background-color: black;
-            width: inherit;
-            height: inherit;
+            width: 100%;
+            height: 100%;
             h3{
                 position: relative;
                 top: 20px;
@@ -27,7 +27,8 @@
                 bottom: 74px;
                 opacity: .7;
                 transition: all .3s ease;
-                width: inherit;
+                width: 100%;
+                height: 100%;
             }
         }
     }
@@ -41,14 +42,14 @@
     a{
         text-decoration: none;
         color: white;
-        height: 250px;
-        width: inherit;
+        height: 100%;
+        width: 100%;
         .katalog__fon{
             position: relative;
             bottom: 18px;
             background-color: black;
-            width: inherit;
-            height: inherit;
+            width: 100%;
+            height: 100%;
             h3{
                 position: relative;
                 top: 20px;
@@ -66,7 +67,8 @@
                 bottom: 74px;
                 opacity: .7;
                 transition: all .3s ease;
-                width: inherit;
+                width: 100%;
+                height: 100%;
             }
         }
     }

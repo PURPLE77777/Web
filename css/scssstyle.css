@@ -1,6 +1,6 @@
 body .katalog .div-1 a, body .katalog .div-3 a, body .katalog .div-5 a, body .katalog .div-6 a {
-  height: 125px;
-  width: inherit;
+  height: 100%;
+  width: 100%;
   text-decoration: none;
   color: white;
 }
@@ -9,8 +9,8 @@ body .katalog .div-1 a .katalog__fon, body .katalog .div-3 a .katalog__fon, body
   position: relative;
   bottom: 18px;
   background-color: black;
-  width: inherit;
-  height: inherit;
+  width: 100%;
+  height: 100%;
 }
 
 body .katalog .div-1 a .katalog__fon h3, body .katalog .div-3 a .katalog__fon h3, body .katalog .div-5 a .katalog__fon h3, body .katalog .div-6 a .katalog__fon h3 {
@@ -33,7 +33,8 @@ body .katalog .div-1 a .katalog__fon .imag, body .katalog .div-3 a .katalog__fon
   opacity: .7;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  width: inherit;
+  width: 100%;
+  height: 100%;
 }
 
 body .katalog .div-1 a:hover .imag, body .katalog .div-3 a:hover .imag, body .katalog .div-5 a:hover .imag, body .katalog .div-6 a:hover .imag {
@@ -43,16 +44,16 @@ body .katalog .div-1 a:hover .imag, body .katalog .div-3 a:hover .imag, body .ka
 body .katalog .div-2 a, body .katalog .div-4 a, body .katalog .div-7 a, body .katalog .div-8 a, body .katalog .div-9 a, body .katalog .div-10 a {
   text-decoration: none;
   color: white;
-  height: 250px;
-  width: inherit;
+  height: 100%;
+  width: 100%;
 }
 
 body .katalog .div-2 a .katalog__fon, body .katalog .div-4 a .katalog__fon, body .katalog .div-7 a .katalog__fon, body .katalog .div-8 a .katalog__fon, body .katalog .div-9 a .katalog__fon, body .katalog .div-10 a .katalog__fon {
   position: relative;
   bottom: 18px;
   background-color: black;
-  width: inherit;
-  height: inherit;
+  width: 100%;
+  height: 100%;
 }
 
 body .katalog .div-2 a .katalog__fon h3, body .katalog .div-4 a .katalog__fon h3, body .katalog .div-7 a .katalog__fon h3, body .katalog .div-8 a .katalog__fon h3, body .katalog .div-9 a .katalog__fon h3, body .katalog .div-10 a .katalog__fon h3 {
@@ -75,7 +76,8 @@ body .katalog .div-2 a .katalog__fon .imag, body .katalog .div-4 a .katalog__fon
   opacity: .7;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  width: inherit;
+  width: 100%;
+  height: 100%;
 }
 
 body .katalog .div-2 a:hover .imag, body .katalog .div-4 a:hover .imag, body .katalog .div-7 a:hover .imag, body .katalog .div-8 a:hover .imag, body .katalog .div-9 a:hover .imag, body .katalog .div-10 a:hover .imag {
