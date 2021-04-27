@@ -82,7 +82,7 @@ body{
     margin: 20px 0px;
     .katalog{
         display: grid;
-        grid-template-columns: repeat(4, minmax(200px,350px));
+        grid-template-columns: repeat(4, minmax(250px,350px));
         grid-template-rows: repeat(2, 125px) 250px;
         grid-template-areas: "div-1 div-2 div-3 div-4"
                              "div-5 div-2 div-6 div-4"

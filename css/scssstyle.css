@@ -91,8 +91,8 @@ body {
 body .katalog {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(200px, 350px))[4];
-      grid-template-columns: repeat(4, minmax(200px, 350px));
+  -ms-grid-columns: (minmax(250px, 350px))[4];
+      grid-template-columns: repeat(4, minmax(250px, 350px));
   -ms-grid-rows: (125px)[2] 250px;
       grid-template-rows: repeat(2, 125px) 250px;
       grid-template-areas: "div-1 div-2 div-3 div-4" "div-5 div-2 div-6 div-4" "div-7 div-8 div-9 div-10";
