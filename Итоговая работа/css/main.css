@@ -76,6 +76,7 @@ body .pages .home-page .pages__home-page__fon a, body .pages .sample-page .pages
   text-decoration: none;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  z-index: 999;
 }
 
 body .pages .home-page .pages__home-page__fon a i, body .pages .sample-page .pages__home-page__fon a i, body .pages .blog-page .pages__home-page__fon a i {
@@ -97,6 +98,7 @@ body .pages .home-page .pages__sample-page__fon a, body .pages .sample-page .pag
   padding: 10px;
   font-size: 10pt;
   text-decoration: none;
+  z-index: 999;
 }
 
 body .pages .home-page .pages__sample-page__fon a i, body .pages .sample-page .pages__sample-page__fon a i, body .pages .blog-page .pages__sample-page__fon a i {
@@ -118,6 +120,7 @@ body .pages .home-page .pages__blog-page__fon a, body .pages .sample-page .pages
   padding: 10px;
   font-size: 10pt;
   text-decoration: none;
+  z-index: 999;
 }
 
 body .pages .home-page .pages__blog-page__fon a i, body .pages .sample-page .pages__blog-page__fon a i, body .pages .blog-page .pages__blog-page__fon a i {
@@ -265,7 +268,8 @@ body .info {
   background-color: #f1f2f1;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "div-1 div-2 div-3" "div-4 div-5 div-6";
+      grid-template-areas: "div-1 div-2 div-3"
+ "div-4 div-5 div-6";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: (auto)[2];
@@ -334,7 +338,12 @@ body .info .div-6 {
     background-color: #f1f2f1;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "div-1" "div-2" "div-3"                   "div-4" "div-5" "div-6";
+        grid-template-areas: "div-1"
+ "div-2"
+ "div-3"                  
+ "div-4"
+ "div-5"
+ "div-6";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (auto)[6];
