@@ -1,4 +1,212 @@
 @charset "UTF-8";
+body main .work .processes .proc-1 .pict-number, body main .work .processes .proc-2 .pict-number, body main .work .processes .proc-3 .pict-number, body main .work .processes .proc-4 .pict-number {
+  background-color: #e66a55;
+  border-radius: 25px;
+  color: white;
+  width: 50px;
+  margin: 0px auto;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+body main .projects .projects-types .type-1, body main .projects .projects-types .type-2, body main .projects .projects-types .type-3, body main .projects .projects-types .type-4, body main .projects .projects-types .type-5, body main .projects .projects-types .type-6, body main .projects .projects-types .type-7, body main .projects .projects-types .type-8 {
+  cursor: pointer;
+}
+
+body main .projects .projects-types .type-1 img, body main .projects .projects-types .type-2 img, body main .projects .projects-types .type-3 img, body main .projects .projects-types .type-4 img, body main .projects .projects-types .type-5 img, body main .projects .projects-types .type-6 img, body main .projects .projects-types .type-7 img, body main .projects .projects-types .type-8 img {
+  position: relative;
+  top: 100px;
+}
+
+body main .projects .projects-types .type-1 .hovered-bg, body main .projects .projects-types .type-2 .hovered-bg, body main .projects .projects-types .type-3 .hovered-bg, body main .projects .projects-types .type-4 .hovered-bg, body main .projects .projects-types .type-5 .hovered-bg, body main .projects .projects-types .type-6 .hovered-bg, body main .projects .projects-types .type-7 .hovered-bg, body main .projects .projects-types .type-8 .hovered-bg {
+  background: url("/Итоговая работа/img/logo_hover1.jpg") no-repeat;
+  background-size: cover;
+  visibility: hidden;
+  height: 100%;
+  position: relative;
+  top: -145px;
+}
+
+body main .projects .projects-types .type-1 .hovered-bg .hovered, body main .projects .projects-types .type-2 .hovered-bg .hovered, body main .projects .projects-types .type-3 .hovered-bg .hovered, body main .projects .projects-types .type-4 .hovered-bg .hovered, body main .projects .projects-types .type-5 .hovered-bg .hovered, body main .projects .projects-types .type-6 .hovered-bg .hovered, body main .projects .projects-types .type-7 .hovered-bg .hovered, body main .projects .projects-types .type-8 .hovered-bg .hovered {
+  background-color: white;
+  width: 100%;
+  margin-top: 100px;
+  padding: 20px 0px;
+  position: relative;
+  top: 145px;
+}
+
+body main .projects .projects-types .type-1 .hovered-bg .hovered h4, body main .projects .projects-types .type-2 .hovered-bg .hovered h4, body main .projects .projects-types .type-3 .hovered-bg .hovered h4, body main .projects .projects-types .type-4 .hovered-bg .hovered h4, body main .projects .projects-types .type-5 .hovered-bg .hovered h4, body main .projects .projects-types .type-6 .hovered-bg .hovered h4, body main .projects .projects-types .type-7 .hovered-bg .hovered h4, body main .projects .projects-types .type-8 .hovered-bg .hovered h4 {
+  margin: 0px;
+  font-size: 9pt;
+  letter-spacing: 1px;
+}
+
+body main .projects .projects-types .type-1 .hovered-bg .hovered p, body main .projects .projects-types .type-2 .hovered-bg .hovered p, body main .projects .projects-types .type-3 .hovered-bg .hovered p, body main .projects .projects-types .type-4 .hovered-bg .hovered p, body main .projects .projects-types .type-5 .hovered-bg .hovered p, body main .projects .projects-types .type-6 .hovered-bg .hovered p, body main .projects .projects-types .type-7 .hovered-bg .hovered p, body main .projects .projects-types .type-8 .hovered-bg .hovered p {
+  margin: 20px 0px 15px 0px;
+  font-size: 11pt;
+  letter-spacing: 1px;
+  opacity: .6;
+}
+
+body main .team .people .person-1 .soccites, body main .team .people .person-2 .soccites, body main .team .people .person-3 .soccites, body main .team .people .person-4 .soccites {
+  background-color: #e66a55;
+  color: white;
+  margin: 0px auto;
+  height: 80px;
+  width: 269px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .team .people .person-1 .soccites i, body main .team .people .person-2 .soccites i, body main .team .people .person-3 .soccites i, body main .team .people .person-4 .soccites i {
+  margin: 0px 15px;
+  cursor: pointer;
+  opacity: .5;
+}
+
+body main .team .people .person-1 .soccites i:hover, body main .team .people .person-2 .soccites i:hover, body main .team .people .person-3 .soccites i:hover, body main .team .people .person-4 .soccites i:hover {
+  opacity: 1;
+}
+
+body main .team .people .person-1 img, body main .team .people .person-2 img, body main .team .people .person-3 img, body main .team .people .person-4 img {
+  position: relative;
+  top: -80px;
+  -webkit-transition: .8s ease 0s all;
+  transition: .8s ease 0s all;
+  z-index: 99;
+}
+
+body main .team .people .person-1 h4, body main .team .people .person-2 h4, body main .team .people .person-3 h4, body main .team .people .person-4 h4 {
+  font-size: 9pt;
+  letter-spacing: 2px;
+  position: relative;
+  top: -70px;
+  -webkit-transition: .8s ease 0s all;
+  transition: .8s ease 0s all;
+}
+
+body main .team .people .person-1 p, body main .team .people .person-2 p, body main .team .people .person-3 p, body main .team .people .person-4 p {
+  font-size: 10pt;
+  letter-spacing: 2px;
+  opacity: .4;
+  position: relative;
+  top: -65px;
+  -webkit-transition: .8s ease 0s all;
+  transition: .8s ease 0s all;
+}
+
+body main .prices .module-1, body main .prices .module-2, body main .prices .module-3 {
+  margin: 0px;
+  background-color: white;
+}
+
+body main .prices .module-1 h4, body main .prices .module-2 h4, body main .prices .module-3 h4 {
+  margin: 50px 0px;
+  font-size: 10pt;
+  letter-spacing: 2px;
+}
+
+body main .prices .module-1 h2, body main .prices .module-2 h2, body main .prices .module-3 h2 {
+  color: #e66a55;
+  font-size: 27pt;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body main .prices .module-1 .peryear, body main .prices .module-2 .peryear, body main .prices .module-3 .peryear {
+  color: #e66a55;
+  margin-bottom: 60px;
+}
+
+body main .prices .module-1 img, body main .prices .module-2 img, body main .prices .module-3 img {
+  margin-bottom: 50px;
+}
+
+body main .prices .module-1 div p, body main .prices .module-2 div p, body main .prices .module-3 div p {
+  font-size: 9pt;
+  letter-spacing: 2px;
+  opacity: .5;
+  margin: 20px 10px;
+}
+
+body main .prices .module-1 a, body main .prices .module-2 a, body main .prices .module-3 a {
+  display: block;
+  background-color: #e66a55;
+  text-decoration: none;
+  color: white;
+  font-size: 8pt;
+  padding: 20px 0px;
+  font-weight: bold;
+  margin-top: 50px;
+  letter-spacing: 1px;
+}
+
+body main .prices .module-1 a i, body main .prices .module-2 a i, body main .prices .module-3 a i {
+  font-size: 9pt;
+  margin-left: 5px;
+  position: relative;
+  left: 0px;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+}
+
+body main .prices .module-1 a:hover i, body main .prices .module-2 a:hover i, body main .prices .module-3 a:hover i {
+  left: 10px;
+}
+
+body main .skills .skills-presentation .skill-1, body main .skills .skills-presentation .skill-2, body main .skills .skills-presentation .skill-3, body main .skills .skills-presentation .skill-4 {
+  text-align: center;
+  color: white;
+}
+
+body main .skills .skills-presentation .skill-1 .bg-diagram, body main .skills .skills-presentation .skill-2 .bg-diagram, body main .skills .skills-presentation .skill-3 .bg-diagram, body main .skills .skills-presentation .skill-4 .bg-diagram {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+body main .skills .skills-presentation .skill-1 .bg-diagram .diagram, body main .skills .skills-presentation .skill-2 .bg-diagram .diagram, body main .skills .skills-presentation .skill-3 .bg-diagram .diagram, body main .skills .skills-presentation .skill-4 .bg-diagram .diagram {
+  background-color: white;
+  height: 0%;
+}
+
+body main .skills .skills-presentation .skill-1 .bg-diagram .diagram p, body main .skills .skills-presentation .skill-2 .bg-diagram .diagram p, body main .skills .skills-presentation .skill-3 .bg-diagram .diagram p, body main .skills .skills-presentation .skill-4 .bg-diagram .diagram p {
+  opacity: 0;
+  position: relative;
+  top: 20%;
+  font-size: 28pt;
+  font-weight: bold;
+  color: #e66a55;
+}
+
+body main .skills .skills-presentation .skill-1 h4, body main .skills .skills-presentation .skill-2 h4, body main .skills .skills-presentation .skill-3 h4, body main .skills .skills-presentation .skill-4 h4 {
+  font-size: 10pt;
+  letter-spacing: 1px;
+  margin: 40px 0px;
+}
+
+body main .skills .skills-presentation .skill-1 p, body main .skills .skills-presentation .skill-2 p, body main .skills .skills-presentation .skill-3 p, body main .skills .skills-presentation .skill-4 p {
+  font-size: 10pt;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   margin: 0px;
@@ -23,6 +231,7 @@ body header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: 999;
 }
 
 body header .logo {
@@ -205,13 +414,915 @@ body main .home .home_fon ul li:hover {
 
 body main .services .services-text {
   text-align: center;
+  margin-top: 180px;
+}
+
+body main .services .services-text h2 {
+  font-size: 28pt;
+  font-weight: bold;
+}
+
+body main .services .services-text p {
+  margin: 20px auto;
+  width: 60%;
+  line-height: 40px;
+  letter-spacing: 1px;
+  opacity: .6;
 }
 
 body main .services .grid {
+  text-align: center;
+  margin: 40px 80px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (6)[16.7%];
       grid-template-columns: repeat(16.7%, 6);
   -ms-grid-rows: 150px;
       grid-template-rows: 150px;
+      grid-template-areas: "div-1 div-2 div-3 div-4 div-5 div-6";
+}
+
+body main .services .grid .div-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: div-1;
+}
+
+body main .services .grid .div-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: div-2;
+}
+
+body main .services .grid .div-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: div-3;
+}
+
+body main .services .grid .div-4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: div-4;
+}
+
+body main .services .grid .div-5 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: div-5;
+}
+
+body main .services .grid .div-6 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+  grid-area: div-6;
+}
+
+body main .services .grid .div-1, body main .services .grid .div-2, body main .services .grid .div-3, body main .services .grid .div-4, body main .services .grid .div-5, body main .services .grid .div-6 {
+  cursor: pointer;
+  opacity: .5;
+  margin: 30px 10px;
+}
+
+body main .services .grid .div-1:hover, body main .services .grid .div-2:hover, body main .services .grid .div-3:hover, body main .services .grid .div-4:hover, body main .services .grid .div-5:hover, body main .services .grid .div-6:hover {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  body main .services .services-text {
+    margin-top: 0px;
+  }
+  body main .services .services-text p {
+    width: 80%;
+  }
+  body main .services .grid {
+    -ms-grid-columns: (450px)[2];
+        grid-template-columns: repeat(2, 450px);
+    -ms-grid-rows: (150px)[3];
+        grid-template-rows: repeat(3, 150px);
+        grid-template-areas: "div-1 div-2" "div-3 div-4" "div-5 div-6";
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  body main .services .grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (150px)[3];
+        grid-template-rows: repeat(3, 150px);
+  }
+}
+
+body main .services .info {
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .services .info .text {
+  color: white;
+  text-align: center;
+  width: 50%;
+  background-color: #e66a55;
+  height: 100%;
+}
+
+body main .services .info .text h3 {
+  margin-top: 100px;
+  letter-spacing: 3px;
+  font-size: 22pt;
+}
+
+body main .services .info .text p {
+  margin: 60px 90px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  opacity: 0.7;
+  font-size: 11pt;
+}
+
+body main .services .info .text a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-size: 8pt;
+  letter-spacing: 2px;
+}
+
+body main .services .info .img {
+  width: 50%;
+  background-image: url(http://demo.themeton.com/nine/wp-content/uploads/sites/30/2015/06/serv_2bg.jpg?id=273);
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  body main .services .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .services .info .text {
+    width: 100%;
+  }
+  body main .services .info .img {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+body main .history {
+  text-align: center;
+  margin: 100px auto;
+}
+
+body main .history .history-info {
+  width: 50%;
+  margin: 0px auto;
+  margin-bottom: 100px;
+}
+
+body main .history .history-info h2 {
+  font-size: 27pt;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+body main .history .history-info p {
+  opacity: .6;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+body main .history .pict-text img {
+  border: 15px solid #e66a55;
+  border-radius: 128px;
+  position: relative;
+  left: 62px;
+}
+
+body main .history .pict-text a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  position: relative;
+  top: -124px;
+  left: -134px;
+}
+
+body main .history .pict-text h5 {
+  letter-spacing: 2px;
+  font-size: 9pt;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+body main .history .pict-text p {
+  margin: 30px auto;
+  opacity: .6;
+  width: 50%;
+  line-height: 35px;
+}
+
+@media (max-width: 767px) {
+  body main .history .history-info {
+    width: 75%;
+  }
+  body main .history .pict-text p {
+    width: 75%;
+  }
+}
+
+body main .work {
+  margin: 150px 50px;
+}
+
+body main .work .work-info {
+  margin: 0px auto;
+  text-align: center;
+  width: 55%;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+body main .work .work-info h2 {
+  font-size: 26pt;
+  font-weight: bold;
+}
+
+body main .work .work-info p {
+  opacity: .6;
+  font-size: 11pt;
+}
+
+body main .work .processes {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 100px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (250px)[2];
+      grid-template-rows: repeat(2, 250px);
+  gap: 5px 20px;
+      grid-template-areas: "proc-1 proc-2 proc-3 proc-4" "proc-text-1 proc-text-2 proc-text-3 proc-text-4";
+}
+
+body main .work .processes .proc-1 {
+  text-align: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: proc-1;
+  cursor: pointer;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+  opacity: .5;
+}
+
+body main .work .processes .proc-text-1 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: proc-text-1;
+  text-align: center;
+  opacity: .5;
+}
+
+body main .work .processes .proc-2 {
+  text-align: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: proc-2;
+  cursor: pointer;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+  opacity: .5;
+}
+
+body main .work .processes .proc-text-2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: proc-text-2;
+  text-align: center;
+  opacity: .5;
+}
+
+body main .work .processes .proc-3 {
+  text-align: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: proc-3;
+  cursor: pointer;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+  opacity: .5;
+}
+
+body main .work .processes .proc-text-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: proc-text-3;
+  text-align: center;
+  opacity: .5;
+}
+
+body main .work .processes .proc-4 {
+  text-align: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: proc-4;
+  cursor: pointer;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+  opacity: .5;
+}
+
+body main .work .processes .proc-text-4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: proc-text-4;
+  text-align: center;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+  opacity: .5;
+}
+
+body main .work .processes .proc-1:hover, body main .work .processes .proc-2:hover, body main .work .processes .proc-3:hover, body main .work .processes .proc-4:hover {
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  body main .work .processes {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: (250px)[3];
+        grid-template-rows: repeat(3, 250px);
+    gap: 20px 40px;
+    margin: 100px 70px 0px;
+        grid-template-areas: "proc-1 proc-1 proc-2 proc-2" "proc-3 proc-3 proc-4 proc-4" "proc-text-1 proc-text-2 proc-text-3 proc-text-4";
+  }
+}
+
+@media (max-width: 767px) {
+  body main .work .processes {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+    margin: 100px -35px 0px;
+    gap: 0px 40px;
+        grid-template-areas: "proc-1 proc-2" "proc-3 proc-4" "proc-text-1 proc-text-1" "proc-text-2 proc-text-2" "proc-text-3 proc-text-3" "proc-text-4 proc-text-4";
+  }
+  body main .work .processes .proc-1, body main .work .processes .proc-2, body main .work .processes .proc-3, body main .work .processes .proc-4 {
+    margin-bottom: 50px;
+  }
+  body main .work .processes .proc-1 .pict-number, body main .work .processes .proc-2 .pict-number, body main .work .processes .proc-3 .pict-number, body main .work .processes .proc-4 .pict-number {
+    margin-top: 20px;
+  }
+}
+
+body main .projects {
+  background-image: url("/Итоговая работа/img/project_bg.png");
+  text-align: center;
+}
+
+body main .projects .projects-info {
+  color: white;
+  margin: 0px auto;
+  width: 60%;
+  padding-top: 150px;
+}
+
+body main .projects .projects-info h2 {
+  font-weight: bold;
+  font-size: 30pt;
+}
+
+body main .projects .projects-info p {
+  letter-spacing: 2px;
+  line-height: 35px;
+  font-size: 10pt;
+}
+
+body main .projects .projects-types {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  gap: 15px 25px;
+  padding: 50px 50px 150px;
+      grid-template-areas: "type-1 type-2 type-3 type-4" "type-5 type-6 type-7 type-8";
+}
+
+body main .projects .projects-types .type-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: type-1;
+}
+
+body main .projects .projects-types .type-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: type-2;
+}
+
+body main .projects .projects-types .type-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: type-3;
+}
+
+body main .projects .projects-types .type-4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: type-4;
+}
+
+body main .projects .projects-types .type-5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: type-5;
+}
+
+body main .projects .projects-types .type-6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: type-6;
+}
+
+body main .projects .projects-types .type-7 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: type-7;
+}
+
+body main .projects .projects-types .type-8 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: type-8;
+}
+
+body main .projects .projects-types .type-1:hover img, body main .projects .projects-types .type-2:hover img, body main .projects .projects-types .type-3:hover img, body main .projects .projects-types .type-4:hover img, body main .projects .projects-types .type-5:hover img, body main .projects .projects-types .type-6:hover img, body main .projects .projects-types .type-7:hover img, body main .projects .projects-types .type-8:hover img {
+  visibility: hidden;
+}
+
+body main .projects .projects-types .type-1:hover .hovered-bg, body main .projects .projects-types .type-2:hover .hovered-bg, body main .projects .projects-types .type-3:hover .hovered-bg, body main .projects .projects-types .type-4:hover .hovered-bg, body main .projects .projects-types .type-5:hover .hovered-bg, body main .projects .projects-types .type-6:hover .hovered-bg, body main .projects .projects-types .type-7:hover .hovered-bg, body main .projects .projects-types .type-8:hover .hovered-bg {
+  visibility: visible;
+}
+
+@media (max-width: 767px) {
+  body main .projects .projects-types {
+    -ms-grid-columns: (235px)[2];
+        grid-template-columns: repeat(2, 235px);
+    -ms-grid-rows: (auto)[4];
+        grid-template-rows: repeat(4, auto);
+    gap: 15px 25px;
+    padding: 50px 50px 150px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+        grid-template-areas: "type-1 type-2"  "type-3 type-4" "type-5 type-6"  "type-7 type-8";
+  }
+}
+
+body main .team {
+  margin: 150px 0px;
+  text-align: center;
+}
+
+body main .team h2 {
+  font-weight: bold;
+  font-size: 30pt;
+  letter-spacing: 7px;
+}
+
+body main .team .people {
+  display: -ms-grid;
+  display: grid;
+  margin: 0px 75px;
+  -ms-grid-columns: (269px)[4];
+      grid-template-columns: repeat(4, 269px);
+  -ms-grid-rows: (500px)[1];
+      grid-template-rows: repeat(1, 500px);
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: "person-1 person-2 person-3 person-4";
+}
+
+body main .team .people .person-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: person-1;
+}
+
+body main .team .people .person-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: person-2;
+}
+
+body main .team .people .person-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: person-3;
+}
+
+body main .team .people .person-4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: person-4;
+}
+
+body main .team .people .person-1:hover img, body main .team .people .person-2:hover img, body main .team .people .person-3:hover img, body main .team .people .person-4:hover img {
+  top: 0px;
+}
+
+body main .team .people .person-1:hover h4, body main .team .people .person-2:hover h4, body main .team .people .person-3:hover h4, body main .team .people .person-4:hover h4 {
+  opacity: 0;
+}
+
+body main .team .people .person-1:hover p, body main .team .people .person-2:hover p, body main .team .people .person-3:hover p, body main .team .people .person-4:hover p {
+  opacity: 0;
+}
+
+@media (max-width: 1199px) {
+  body main .team .people {
+    -ms-grid-columns: (269px)[2];
+        grid-template-columns: repeat(2, 269px);
+    -ms-grid-rows: (500px)[2];
+        grid-template-rows: repeat(2, 500px);
+    row-gap: 30px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+        grid-template-areas: "person-1 person-2" "person-3 person-4";
+  }
+}
+
+@media (max-width: 767px) {
+  body main .team .people {
+    row-gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-columns: (269px)[1];
+        grid-template-columns: repeat(1, 269px);
+    -ms-grid-rows: (500px)[4];
+        grid-template-rows: repeat(4, 500px);
+        grid-template-areas: "person-1"  "person-2" "person-3"  "person-4";
+  }
+}
+
+body main .prices {
+  margin: 0px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  padding: 100px 50px;
+  background-color: #f9f9f9;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (minmax(162px, 270px))[4];
+      grid-template-columns: repeat(4, minmax(162px, 270px));
+  -ms-grid-rows: (auto)[1];
+      grid-template-rows: repeat(1, auto);
+      grid-template-areas: "prices-info module-1 module-2 module-3";
+}
+
+body main .prices .prices-info {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: prices-info;
+}
+
+body main .prices .prices-info h2 {
+  color: #e66a55;
+  font-size: 27pt;
+  line-height: 65px;
+  margin: 0px;
+  letter-spacing: 2px;
+}
+
+body main .prices .prices-info h2 p {
+  opacity: 1;
+  font-size: 27pt;
+  line-height: 65px;
+  margin: 0px;
+}
+
+body main .prices .prices-info p {
+  opacity: .4;
+  line-height: 25px;
+  font-size: 12pt;
+  letter-spacing: 1px;
+}
+
+body main .prices .module-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: module-1;
+}
+
+body main .prices .module-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: module-2;
+}
+
+body main .prices .module-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: module-3;
+}
+
+body main .prices .module-1:hover, body main .prices .module-2:hover, body main .prices .module-3:hover {
+  background-color: #f3b5aa;
+}
+
+body main .prices .module-1:hover h4, body main .prices .module-2:hover h4, body main .prices .module-3:hover h4 {
+  color: white;
+}
+
+body main .prices .module-1:hover h2, body main .prices .module-2:hover h2, body main .prices .module-3:hover h2 {
+  color: white;
+}
+
+body main .prices .module-1:hover .peryear, body main .prices .module-2:hover .peryear, body main .prices .module-3:hover .peryear {
+  color: white;
+}
+
+body main .prices .module-1:hover div, body main .prices .module-2:hover div, body main .prices .module-3:hover div {
+  color: white;
+}
+
+body main .prices .module-1:hover div p, body main .prices .module-2:hover div p, body main .prices .module-3:hover div p {
+  opacity: 1;
+}
+
+@media (max-width: 989px) {
+  body main .prices .prices-info p {
+    font-size: 10pt;
+  }
+}
+
+@media (max-width: 767px) {
+  body main .prices {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (auto)[4];
+        grid-template-rows: repeat(4, auto);
+    row-gap: 50px;
+    padding: 100px 15px;
+        grid-template-areas: "prices-info" "module-1" "module-2" "module-3";
+  }
+  body main .prices .module-1 div p, body main .prices .module-2 div p, body main .prices .module-3 div p {
+    margin: 20px 0px;
+  }
+}
+
+body main .skills {
+  background: url("/Итоговая работа/img/skills_bg.png");
+  background-size: cover;
+  padding: 150px 0px;
+}
+
+body main .skills .skills-info {
+  margin: 0px auto;
+  width: 55%;
+  text-align: center;
+}
+
+body main .skills .skills-info h2 {
+  font-size: 30pt;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+
+body main .skills .skills-info p {
+  font-size: 10pt;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+body main .skills .skills-presentation {
+  display: -ms-grid;
+  display: grid;
+  margin: 0px 20px;
+  gap: 30px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (auto)[1];
+      grid-template-rows: repeat(1, auto);
+      grid-template-areas: "skill-1 skill-2 skill-3 skill-4";
+}
+
+body main .skills .skills-presentation .skill-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: skill-1;
+  -webkit-transition: 1s ease 0s all;
+  transition: 1s ease 0s all;
+}
+
+body main .skills .skills-presentation .skill-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: skill-2;
+  -webkit-transition: 1s ease 0s all;
+  transition: 1s ease 0s all;
+}
+
+body main .skills .skills-presentation .skill-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: skill-3;
+  -webkit-transition: 1s ease 0s all;
+  transition: 1s ease 0s all;
+}
+
+body main .skills .skills-presentation .skill-4 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: skill-4;
+  -webkit-transition: 1s ease 0s all;
+  transition: 1s ease 0s all;
+}
+
+body main .skills:hover .skills-presentation .skill-1 .bg-diagram .diagram {
+  -webkit-animation: diagram-1 1s ease 1 forwards;
+          animation: diagram-1 1s ease 1 forwards;
+}
+
+body main .skills:hover .skills-presentation .skill-1 .bg-diagram .diagram P {
+  -webkit-animation: opacity-p 1s ease 1 forwards;
+          animation: opacity-p 1s ease 1 forwards;
+}
+
+@-webkit-keyframes opacity-p {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-p {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes diagram-1 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 90%;
+  }
+}
+
+@keyframes diagram-1 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 90%;
+  }
+}
+
+body main .skills:hover .skills-presentation .skill-2 .bg-diagram .diagram {
+  -webkit-animation: diagram-2 1s ease 1 forwards;
+          animation: diagram-2 1s ease 1 forwards;
+}
+
+body main .skills:hover .skills-presentation .skill-2 .bg-diagram .diagram P {
+  -webkit-animation: opacity-p 1s ease 1 forwards;
+          animation: opacity-p 1s ease 1 forwards;
+}
+
+@keyframes opacity-p {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes diagram-2 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 85%;
+  }
+}
+
+@keyframes diagram-2 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 85%;
+  }
+}
+
+body main .skills:hover .skills-presentation .skill-3 .bg-diagram .diagram {
+  -webkit-animation: diagram-3 1s ease 1 forwards;
+          animation: diagram-3 1s ease 1 forwards;
+}
+
+body main .skills:hover .skills-presentation .skill-3 .bg-diagram .diagram P {
+  -webkit-animation: opacity-p 1s ease 1 forwards;
+          animation: opacity-p 1s ease 1 forwards;
+}
+
+@keyframes opacity-p {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes diagram-3 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 78%;
+  }
+}
+
+@keyframes diagram-3 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 78%;
+  }
+}
+
+body main .skills:hover .skills-presentation .skill-4 .bg-diagram .diagram {
+  -webkit-animation: diagram-4 1s ease 1 forwards;
+          animation: diagram-4 1s ease 1 forwards;
+}
+
+body main .skills:hover .skills-presentation .skill-4 .bg-diagram .diagram P {
+  -webkit-animation: opacity-p 1s ease 1 forwards;
+          animation: opacity-p 1s ease 1 forwards;
+}
+
+@keyframes opacity-p {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes diagram-4 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 95%;
+  }
+}
+
+@keyframes diagram-4 {
+  from {
+    height: 0%;
+  }
+  to {
+    height: 95%;
+  }
+}
+
+@media (max-width: 767px) {
+  body main .skills .skills-presentation {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (auto)[4];
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: "skill-1"  "skill-2"  "skill-3"  "skill-4";
+  }
 }
