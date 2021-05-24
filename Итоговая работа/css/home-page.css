@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body main .work .processes .proc-1 .pict-number, body main .work .processes .proc-2 .pict-number, body main .work .processes .proc-3 .pict-number, body main .work .processes .proc-4 .pict-number {
   background-color: #e66a55;
   border-radius: 25px;
@@ -19,7 +18,7 @@ body main .projects .projects-types .type-1 img, body main .projects .projects-t
 }
 
 body main .projects .projects-types .type-1 .hovered-bg, body main .projects .projects-types .type-2 .hovered-bg, body main .projects .projects-types .type-3 .hovered-bg, body main .projects .projects-types .type-4 .hovered-bg, body main .projects .projects-types .type-5 .hovered-bg, body main .projects .projects-types .type-6 .hovered-bg, body main .projects .projects-types .type-7 .hovered-bg, body main .projects .projects-types .type-8 .hovered-bg {
-  background: url("/Итоговая работа/img/logo_hover1.jpg") no-repeat;
+  background: url("../img/logo_hover1.jpg") no-repeat;
   background-size: cover;
   visibility: hidden;
   height: 100%;
@@ -106,6 +105,8 @@ body main .team .people .person-1 p, body main .team .people .person-2 p, body m
 body main .prices .module-1, body main .prices .module-2, body main .prices .module-3 {
   margin: 0px;
   background-color: white;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 body main .prices .module-1 h4, body main .prices .module-2 h4, body main .prices .module-3 h4 {
@@ -207,7 +208,63 @@ body main .skills .skills-presentation .skill-1 p, body main .skills .skills-pre
   line-height: 25px;
 }
 
+body main .blog .blogs .blog-1 a, body main .blog .blogs .blog-2 a, body main .blog .blogs .blog-3 a {
+  display: block;
+  text-decoration: none;
+}
+
+body main .blog .blogs .blog-1 a img, body main .blog .blogs .blog-2 a img, body main .blog .blogs .blog-3 a img {
+  width: 100%;
+  height: 100%;
+}
+
+body main .blog .blogs .blog-1 a h4, body main .blog .blogs .blog-2 a h4, body main .blog .blogs .blog-3 a h4 {
+  font-size: 9pt;
+  color: black;
+  letter-spacing: 2px;
+}
+
+body main .blog .blogs .blog-1 p, body main .blog .blogs .blog-2 p, body main .blog .blogs .blog-3 p {
+  opacity: .5;
+  font-size: 10pt;
+  margin: 30px 0px;
+}
+
+body main .blog .blogs .blog-1 .btm, body main .blog .blogs .blog-2 .btm, body main .blog .blogs .blog-3 .btm {
+  font-size: 8pt;
+  font-weight: bold;
+  color: #e2472c;
+  letter-spacing: 2px;
+}
+
+body main .blog .blogs .blog-1 .btm i, body main .blog .blogs .blog-2 .btm i, body main .blog .blogs .blog-3 .btm i {
+  position: relative;
+  color: #e2472c;
+  left: 0px;
+  font-size: 12px;
+  -webkit-transition: .5s ease 0s all;
+  transition: .5s ease 0s all;
+}
+
+body main .blog .blogs .blog-1 .btm:hover, body main .blog .blogs .blog-2 .btm:hover, body main .blog .blogs .blog-3 .btm:hover {
+  color: black;
+}
+
+body main .blog .blogs .blog-1 .btm:hover i, body main .blog .blogs .blog-2 .btm:hover i, body main .blog .blogs .blog-3 .btm:hover i {
+  color: black;
+  left: 10px;
+}
+
+body main .contact .contacts .div-form form .form .input-1 label input, body main .contact .contacts .div-form form .form .input-2 label input, body main .contact .contacts .div-form form .form .input-3 label input, body main .contact .contacts .div-form form .form .input-4 label input {
+  width: 280px;
+  padding: 20px 40px 20px 20px;
+  background-color: #eeeef0;
+  border: none;
+  background-color: #eeeef0;
+}
+
 body {
+  overflow-x: hidden;
   font-family: 'Lato', sans-serif;
   margin: 0px;
 }
@@ -238,7 +295,7 @@ body header .logo {
   display: block;
   width: 98px;
   height: 90px;
-  background: url("/Итоговая работа/img/logo.png") center no-repeat;
+  background: url("../img/logo.png") center no-repeat;
   background-size: contain;
 }
 
@@ -330,7 +387,7 @@ body header ul li a:hover {
   body header label {
     display: block;
     position: absolute;
-    left: 90%;
+    right: 5%;
   }
   body header label .open {
     display: block;
@@ -357,7 +414,7 @@ body header ul li a:hover {
 }
 
 body main .home {
-  background: url("/Итоговая работа/img/business.jpg") no-repeat;
+  background: url("../img/business.jpg") no-repeat;
   background-size: cover;
   color: white;
   height: auto;
@@ -372,14 +429,14 @@ body main .home .home_fon {
 body main .home .home_fon h2 {
   font-weight: bold;
   margin: 0px;
-  font-size: 4.5vw;
+  font-size: 5vw;
   padding-left: 60px;
 }
 
 body main .home .home_fon p {
   line-height: 30px;
   width: 50%;
-  font-size: 1.2vw;
+  font-size: 11pt;
   margin-top: 40px;
   opacity: .7;
   padding-left: 60px;
@@ -786,7 +843,7 @@ body main .work .processes .proc-1:hover, body main .work .processes .proc-2:hov
 }
 
 body main .projects {
-  background-image: url("/Итоговая работа/img/project_bg.png");
+  background-image: url("../img/project_bg.png");
   text-align: center;
 }
 
@@ -1091,7 +1148,7 @@ body main .prices .module-1:hover div p, body main .prices .module-2:hover div p
 }
 
 body main .skills {
-  background: url("/Итоговая работа/img/skills_bg.png");
+  background: url("../img/skills_bg.png");
   background-size: cover;
   padding: 150px 0px;
 }
@@ -1158,6 +1215,16 @@ body main .skills .skills-presentation .skill-4 {
   grid-area: skill-4;
   -webkit-transition: 1s ease 0s all;
   transition: 1s ease 0s all;
+}
+
+@media (max-width: 767px) {
+  body main .skills .skills-presentation {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-rows: (auto)[4];
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: "skill-1"  "skill-2"  "skill-3"  "skill-4";
+  }
 }
 
 body main .skills:hover .skills-presentation .skill-1 .bg-diagram .diagram {
@@ -1317,12 +1384,354 @@ body main .skills:hover .skills-presentation .skill-4 .bg-diagram .diagram P {
   }
 }
 
+body main .blog {
+  margin: 150px 0px;
+}
+
+body main .blog .blog-info {
+  text-align: center;
+}
+
+body main .blog .blog-info h2 {
+  font-size: 28pt;
+  letter-spacing: 10px;
+}
+
+body main .blog .blog-info p {
+  font-size: 12pt;
+  letter-spacing: 1px;
+  line-height: 30px;
+  opacity: .5;
+  width: 55%;
+  margin: 0px auto;
+}
+
+body main .blog .blogs {
+  display: -ms-grid;
+  display: grid;
+  margin: 100px 0px;
+  -ms-grid-columns: (360px)[3];
+      grid-template-columns: repeat(3, 360px);
+  -ms-grid-rows: (auto)[1];
+      grid-template-rows: repeat(1, auto);
+      grid-template-areas: "blog-1 blog-2 blog-3";
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .blog .blogs .blog-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: blog-1;
+}
+
+body main .blog .blogs .blog-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: blog-2;
+}
+
+body main .blog .blogs .blog-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: blog-3;
+}
+
+@media (max-width: 1199px) {
+  body main .blog .blogs {
+    -ms-grid-columns: (293px)[3];
+        grid-template-columns: repeat(3, 293px);
+    -ms-grid-rows: (auto)[1];
+        grid-template-rows: repeat(1, auto);
+  }
+}
+
+@media (max-width: 991px) {
+  body main .blog .blogs {
+    -ms-grid-columns: (220px)[3];
+        grid-template-columns: repeat(3, 220px);
+    -ms-grid-rows: (auto)[1];
+        grid-template-rows: repeat(1, auto);
+  }
+}
+
 @media (max-width: 767px) {
-  body main .skills .skills-presentation {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
-    -ms-grid-rows: (auto)[4];
-        grid-template-rows: repeat(4, auto);
-        grid-template-areas: "skill-1"  "skill-2"  "skill-3"  "skill-4";
+  body main .blog .blogs {
+    -ms-grid-columns: (360px)[1];
+        grid-template-columns: repeat(1, 360px);
+    -ms-grid-rows: (auto)[3];
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "blog-1" "blog-2" "blog-3";
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 30px;
+  }
+}
+
+body main .contact {
+  text-align: center;
+}
+
+body main .contact .contact-info h2 {
+  font-size: 28pt;
+  letter-spacing: 5px;
+}
+
+body main .contact .contact-info p {
+  width: 55%;
+  opacity: .5;
+  margin: 0px auto;
+}
+
+body main .contact .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 50px;
+}
+
+body main .contact .contacts .contacts-firm {
+  width: 30%;
+  text-align: left;
+}
+
+body main .contact .contacts .contacts-firm h4 {
+  font-size: 9pt;
+  letter-spacing: 2px;
+}
+
+body main .contact .contacts .contacts-firm p {
+  opacity: .5;
+  margin: 30px 0px;
+}
+
+body main .contact .contacts .contacts-firm a {
+  display: block;
+  margin: 30px 0px;
+  color: #e66a55;
+  text-decoration: none;
+}
+
+body main .contact .contacts .div-form form .form {
+  display: -ms-grid;
+  display: grid;
+  margin-left: 30px;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  gap: 30px;
+      grid-template-areas: "input-1 input-2" "input-3 input-4" "textbox textbox" "submit submit";
+}
+
+body main .contact .contacts .div-form form .form .input-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: input-1;
+}
+
+body main .contact .contacts .div-form form .form .input-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: input-2;
+}
+
+body main .contact .contacts .div-form form .form .input-3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: input-3;
+}
+
+body main .contact .contacts .div-form form .form .input-4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: input-4;
+}
+
+body main .contact .contacts .div-form form .form .textbox {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: textbox;
+}
+
+body main .contact .contacts .div-form form .form .textbox textarea {
+  resize: none;
+  width: 690px;
+  height: 150px;
+  padding: 20px 0px 0px 20px;
+  background-color: #eeeef0;
+  border: none;
+}
+
+body main .contact .contacts .div-form form .form .submit {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: submit;
+}
+
+body main .contact .contacts .div-form form .form .submit button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #acafc0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 10pt;
+}
+
+body main .contact .contacts .div-form form .form .submit button i {
+  font-size: 10pt;
+  position: relative;
+  left: 5px;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+}
+
+body main .contact .contacts .div-form form .form .submit button:hover i {
+  left: 15px;
+}
+
+@media (max-width: 1199px) {
+  body main .contact .contacts .div-form form .form .input-1 label input {
+    width: 240px;
+  }
+  body main .contact .contacts .div-form form .form .input-2 label input {
+    width: 240px;
+  }
+  body main .contact .contacts .div-form form .form .input-3 label input {
+    width: 240px;
+  }
+  body main .contact .contacts .div-form form .form .input-4 label input {
+    width: 240px;
+  }
+  body main .contact .contacts .div-form form .form .textbox textarea {
+    width: 620px;
+  }
+}
+
+@media (max-width: 991px) {
+  body main .contact .contacts .div-form form .form .input-1 label input {
+    width: 180px;
+  }
+  body main .contact .contacts .div-form form .form .input-2 label input {
+    width: 180px;
+  }
+  body main .contact .contacts .div-form form .form .input-3 label input {
+    width: 180px;
+  }
+  body main .contact .contacts .div-form form .form .input-4 label input {
+    width: 180px;
+  }
+  body main .contact .contacts .div-form form .form .textbox textarea {
+    width: 490px;
+  }
+}
+
+@media (max-width: 767px) {
+  body main .contact .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body main .contact .contacts .contacts-firm {
+    width: 100%;
+  }
+  body main .contact .contacts .div-form form .form {
+    margin-left: 0px;
+    -ms-grid-columns: (100%)[1];
+        grid-template-columns: repeat(1, 100%);
+    -ms-grid-rows: (auto)[6];
+        grid-template-rows: repeat(6, auto);
+    gap: 30px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+        grid-template-areas: "input-1" "input-2" "input-3" "input-4" "textbox" "submit";
+  }
+  body main .contact .contacts .div-form form .form .input-1 label input {
+    width: 89%;
+  }
+  body main .contact .contacts .div-form form .form .input-2 label input {
+    width: 89%;
+  }
+  body main .contact .contacts .div-form form .form .input-3 label input {
+    width: 89%;
+  }
+  body main .contact .contacts .div-form form .form .input-4 label input {
+    width: 89%;
+  }
+  body main .contact .contacts .div-form form .form .textbox {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    grid-area: textbox;
+  }
+  body main .contact .contacts .div-form form .form .textbox textarea {
+    resize: none;
+    width: 96%;
+    height: 150px;
+    padding: 20px 0px 0px 20px;
+    background-color: #eeeef0;
+    border: none;
+  }
+}
+
+body footer {
+  text-align: center;
+}
+
+body footer .footer-info {
+  color: white;
+  background-color: #35373e;
+  height: 160px;
+  padding: 60px 0px 0px 0px;
+}
+
+body footer .footer-info p {
+  width: 60%;
+  margin: 20px auto;
+  color: #cfd1db;
+  font-size: 10pt;
+  line-height: 30px;
+}
+
+body footer .footer-navigation {
+  background-color: #2f3138;
+  padding: 5px 0px;
+}
+
+body footer .footer-navigation ul {
+  list-style: none;
+}
+
+body footer .footer-navigation ul li {
+  display: inline-block;
+}
+
+body footer .footer-navigation ul li a {
+  color: #cfd1db;
+  text-decoration: none;
+  font-size: 8pt;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+@media (max-width: 992px) {
+  body footer .footer-info {
+    padding: 60px 0px 20px 0px;
+  }
+  body footer .footer-info P {
+    width: 80%;
+  }
+  body footer .footer-navigation {
+    display: none;
   }
 }

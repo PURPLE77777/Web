@@ -26,8 +26,9 @@ body{
     font-family: Maven Pro;
     font-weight: bold;
     header{
-        margin: 80px;
+        margin: 80px auto;
         text-align: center;
+        width: 100%;
         h1{
             font-size: 30pt;
         }
@@ -62,6 +63,7 @@ body{
                     padding: 10px;
                     font-size: 10pt;
                     text-decoration: none;
+                    z-index: 999;
                     transition: all .3s ease;
                     i{
                         position: relative;
@@ -81,6 +83,7 @@ body{
                     color: white;
                     padding: 10px;
                     font-size: 10pt;
+                    z-index: 999;
                     text-decoration: none;
                     i{
                         position: relative;
@@ -100,6 +103,7 @@ body{
                     color: white;
                     padding: 10px;
                     font-size: 10pt;
+                    z-index: 999;
                     text-decoration: none;
                     i{
                         position: relative;
@@ -172,29 +176,32 @@ body{
                     }
                 }
             }
-            @media (max-width: 1000px) and (min-width: 780px) {
+            @media (max-width: 999px) and (min-width: 780px) {
                 .pages__home-page__fon, .pages__sample-page__fon, .pages__blog-page__fon{
                     width: 224px;
                     height: 127px;
                 }
                 .pages__home-page__fon{
                     a{
-                        left: 13%;
+                        left: 12%;
+                        right: 75%;
                     }
                 }
                 .pages__sample-page__fon{
                     a{
-                        left: 44%;
+                        left: 43%;
+                        right: 43%;
                     }
                 }
                 .pages__blog-page__fon{
                     a{
-                        left: 75%;
+                        left: 74%;
+                        right: 12%;
                     }
                 }
                 .pages__home-page__fon:hover, .pages__sample-page__fon:hover, .pages__blog-page__fon:hover{
                     a{
-                        top: 320px;
+                        top: 315px;
                     }
                     a:hover{
                         i{
@@ -205,7 +212,7 @@ body{
             }
         }
     }
-    @media (max-width: 780px) {
+    @media (max-width: 779px) {
         .pages{
             display: flex;
             flex-flow: column nowrap;
@@ -213,10 +220,11 @@ body{
             .home-page, .sample-page, .blog-page{
                 margin: 15px 0px;
                 .pages__home-page__fon, .pages__sample-page__fon, .pages__blog-page__fon{
-                    width: auto;
+                    width: 350px;
                     height: auto;
                     a{
-                        left: 42%;
+                        left: 40%;
+                        right: 40%;
                     }
                 }
                 .pages__home-page__fon{
@@ -236,17 +244,17 @@ body{
                 }
                 .pages__home-page__fon:hover{
                     a{
-                        top: 60%;
+                        top: 56%;
                     }
                 }
                 .pages__sample-page__fon:hover{
                     a{
-                        top: 112%;
+                        top: 102%;
                     }
                 }
                 .pages__blog-page__fon:hover{
                     a{
-                        top: 160%;
+                        top: 147%;
                     }
                 }
             }
@@ -285,6 +293,7 @@ body{
             @extend %img-div;
         }
         @media (max-width: 1000px) and (min-width: 780px) {
+            padding: 80px 0px 0px 0px;
             .div-1, .div-2, .div-3, .div-4, .div-5, .div-6{
                 text-align: center;
                 padding: 0px 20px;
@@ -298,12 +307,7 @@ body{
             }  
         }
     }
-    @media (max-width: 1000px) and (min-width: 780px){
-        .info{
-            padding: 80px 0px 0px 0px;
-        }
-    }
-    @media (max-width: 780px) {
+    @media (max-width: 779px) {
         .info{
             background-color: #f1f2f1;
             display: grid;

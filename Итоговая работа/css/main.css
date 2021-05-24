@@ -25,8 +25,9 @@ body {
 }
 
 body header {
-  margin: 80px;
+  margin: 80px auto;
   text-align: center;
+  width: 100%;
 }
 
 body header h1 {
@@ -74,9 +75,9 @@ body .pages .home-page .pages__home-page__fon a, body .pages .sample-page .pages
   padding: 10px;
   font-size: 10pt;
   text-decoration: none;
+  z-index: 999;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
-  z-index: 999;
 }
 
 body .pages .home-page .pages__home-page__fon a i, body .pages .sample-page .pages__home-page__fon a i, body .pages .blog-page .pages__home-page__fon a i {
@@ -97,8 +98,8 @@ body .pages .home-page .pages__sample-page__fon a, body .pages .sample-page .pag
   color: white;
   padding: 10px;
   font-size: 10pt;
-  text-decoration: none;
   z-index: 999;
+  text-decoration: none;
 }
 
 body .pages .home-page .pages__sample-page__fon a i, body .pages .sample-page .pages__sample-page__fon a i, body .pages .blog-page .pages__sample-page__fon a i {
@@ -119,8 +120,8 @@ body .pages .home-page .pages__blog-page__fon a, body .pages .sample-page .pages
   color: white;
   padding: 10px;
   font-size: 10pt;
-  text-decoration: none;
   z-index: 999;
+  text-decoration: none;
 }
 
 body .pages .home-page .pages__blog-page__fon a i, body .pages .sample-page .pages__blog-page__fon a i, body .pages .blog-page .pages__blog-page__fon a i {
@@ -199,29 +200,32 @@ body .pages .home-page .pages__home-page__fon:hover a:hover i, body .pages .home
   }
 }
 
-@media (max-width: 1000px) and (min-width: 780px) {
+@media (max-width: 999px) and (min-width: 780px) {
   body .pages .home-page .pages__home-page__fon, body .pages .home-page .pages__sample-page__fon, body .pages .home-page .pages__blog-page__fon, body .pages .sample-page .pages__home-page__fon, body .pages .sample-page .pages__sample-page__fon, body .pages .sample-page .pages__blog-page__fon, body .pages .blog-page .pages__home-page__fon, body .pages .blog-page .pages__sample-page__fon, body .pages .blog-page .pages__blog-page__fon {
     width: 224px;
     height: 127px;
   }
   body .pages .home-page .pages__home-page__fon a, body .pages .sample-page .pages__home-page__fon a, body .pages .blog-page .pages__home-page__fon a {
-    left: 13%;
+    left: 12%;
+    right: 75%;
   }
   body .pages .home-page .pages__sample-page__fon a, body .pages .sample-page .pages__sample-page__fon a, body .pages .blog-page .pages__sample-page__fon a {
-    left: 44%;
+    left: 43%;
+    right: 43%;
   }
   body .pages .home-page .pages__blog-page__fon a, body .pages .sample-page .pages__blog-page__fon a, body .pages .blog-page .pages__blog-page__fon a {
-    left: 75%;
+    left: 74%;
+    right: 12%;
   }
   body .pages .home-page .pages__home-page__fon:hover a, body .pages .home-page .pages__sample-page__fon:hover a, body .pages .home-page .pages__blog-page__fon:hover a, body .pages .sample-page .pages__home-page__fon:hover a, body .pages .sample-page .pages__sample-page__fon:hover a, body .pages .sample-page .pages__blog-page__fon:hover a, body .pages .blog-page .pages__home-page__fon:hover a, body .pages .blog-page .pages__sample-page__fon:hover a, body .pages .blog-page .pages__blog-page__fon:hover a {
-    top: 320px;
+    top: 315px;
   }
   body .pages .home-page .pages__home-page__fon:hover a:hover i, body .pages .home-page .pages__sample-page__fon:hover a:hover i, body .pages .home-page .pages__blog-page__fon:hover a:hover i, body .pages .sample-page .pages__home-page__fon:hover a:hover i, body .pages .sample-page .pages__sample-page__fon:hover a:hover i, body .pages .sample-page .pages__blog-page__fon:hover a:hover i, body .pages .blog-page .pages__home-page__fon:hover a:hover i, body .pages .blog-page .pages__sample-page__fon:hover a:hover i, body .pages .blog-page .pages__blog-page__fon:hover a:hover i {
     left: 10px;
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 779px) {
   body .pages {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -238,11 +242,12 @@ body .pages .home-page .pages__home-page__fon:hover a:hover i, body .pages .home
     margin: 15px 0px;
   }
   body .pages .home-page .pages__home-page__fon, body .pages .home-page .pages__sample-page__fon, body .pages .home-page .pages__blog-page__fon, body .pages .sample-page .pages__home-page__fon, body .pages .sample-page .pages__sample-page__fon, body .pages .sample-page .pages__blog-page__fon, body .pages .blog-page .pages__home-page__fon, body .pages .blog-page .pages__sample-page__fon, body .pages .blog-page .pages__blog-page__fon {
-    width: auto;
+    width: 350px;
     height: auto;
   }
   body .pages .home-page .pages__home-page__fon a, body .pages .home-page .pages__sample-page__fon a, body .pages .home-page .pages__blog-page__fon a, body .pages .sample-page .pages__home-page__fon a, body .pages .sample-page .pages__sample-page__fon a, body .pages .sample-page .pages__blog-page__fon a, body .pages .blog-page .pages__home-page__fon a, body .pages .blog-page .pages__sample-page__fon a, body .pages .blog-page .pages__blog-page__fon a {
-    left: 42%;
+    left: 40%;
+    right: 40%;
   }
   body .pages .home-page .pages__home-page__fon a, body .pages .sample-page .pages__home-page__fon a, body .pages .blog-page .pages__home-page__fon a {
     top: 35%;
@@ -254,13 +259,13 @@ body .pages .home-page .pages__home-page__fon:hover a:hover i, body .pages .home
     top: 140%;
   }
   body .pages .home-page .pages__home-page__fon:hover a, body .pages .sample-page .pages__home-page__fon:hover a, body .pages .blog-page .pages__home-page__fon:hover a {
-    top: 60%;
+    top: 56%;
   }
   body .pages .home-page .pages__sample-page__fon:hover a, body .pages .sample-page .pages__sample-page__fon:hover a, body .pages .blog-page .pages__sample-page__fon:hover a {
-    top: 112%;
+    top: 102%;
   }
   body .pages .home-page .pages__blog-page__fon:hover a, body .pages .sample-page .pages__blog-page__fon:hover a, body .pages .blog-page .pages__blog-page__fon:hover a {
-    top: 160%;
+    top: 147%;
   }
 }
 
@@ -268,8 +273,7 @@ body .info {
   background-color: #f1f2f1;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "div-1 div-2 div-3"
- "div-4 div-5 div-6";
+      grid-template-areas: "div-1 div-2 div-3" "div-4 div-5 div-6";
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: (auto)[2];
@@ -314,6 +318,9 @@ body .info .div-6 {
 }
 
 @media (max-width: 1000px) and (min-width: 780px) {
+  body .info {
+    padding: 80px 0px 0px 0px;
+  }
   body .info .div-1, body .info .div-2, body .info .div-3, body .info .div-4, body .info .div-5, body .info .div-6 {
     text-align: center;
     padding: 0px 20px;
@@ -327,23 +334,12 @@ body .info .div-6 {
   }
 }
 
-@media (max-width: 1000px) and (min-width: 780px) {
-  body .info {
-    padding: 80px 0px 0px 0px;
-  }
-}
-
-@media (max-width: 780px) {
+@media (max-width: 779px) {
   body .info {
     background-color: #f1f2f1;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "div-1"
- "div-2"
- "div-3"                  
- "div-4"
- "div-5"
- "div-6";
+        grid-template-areas: "div-1" "div-2" "div-3"                   "div-4" "div-5" "div-6";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (auto)[6];

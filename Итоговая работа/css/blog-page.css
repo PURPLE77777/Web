@@ -1,0 +1,368 @@
+body main .blog .blogs .blog-1 a, body main .blog .blogs .blog-2 a, body main .blog .blogs .blog-3 a, body main .blog .blogs .blog-4 a, body main .blog .blogs .blog-5 a, body main .blog .blogs .blog-6 a, body main .blog .blogs .blog-7 a, body main .blog .blogs .blog-8 a, body main .blog .blogs .blog-9 a {
+  display: block;
+  text-decoration: none;
+}
+
+body main .blog .blogs .blog-1 a img, body main .blog .blogs .blog-2 a img, body main .blog .blogs .blog-3 a img, body main .blog .blogs .blog-4 a img, body main .blog .blogs .blog-5 a img, body main .blog .blogs .blog-6 a img, body main .blog .blogs .blog-7 a img, body main .blog .blogs .blog-8 a img, body main .blog .blogs .blog-9 a img {
+  width: 100%;
+  height: 100%;
+}
+
+body main .blog .blogs .blog-1 a h4, body main .blog .blogs .blog-2 a h4, body main .blog .blogs .blog-3 a h4, body main .blog .blogs .blog-4 a h4, body main .blog .blogs .blog-5 a h4, body main .blog .blogs .blog-6 a h4, body main .blog .blogs .blog-7 a h4, body main .blog .blogs .blog-8 a h4, body main .blog .blogs .blog-9 a h4 {
+  font-size: 9pt;
+  color: black;
+  letter-spacing: 2px;
+}
+
+body main .blog .blogs .blog-1 p, body main .blog .blogs .blog-2 p, body main .blog .blogs .blog-3 p, body main .blog .blogs .blog-4 p, body main .blog .blogs .blog-5 p, body main .blog .blogs .blog-6 p, body main .blog .blogs .blog-7 p, body main .blog .blogs .blog-8 p, body main .blog .blogs .blog-9 p {
+  opacity: .5;
+  font-size: 10pt;
+  margin: 35px 0px;
+}
+
+body main .blog .blogs .blog-1 .btm, body main .blog .blogs .blog-2 .btm, body main .blog .blogs .blog-3 .btm, body main .blog .blogs .blog-4 .btm, body main .blog .blogs .blog-5 .btm, body main .blog .blogs .blog-6 .btm, body main .blog .blogs .blog-7 .btm, body main .blog .blogs .blog-8 .btm, body main .blog .blogs .blog-9 .btm {
+  font-size: 8pt;
+  font-weight: bold;
+  color: #e2472c;
+  letter-spacing: 2px;
+  margin: 25px 0px;
+}
+
+body main .blog .blogs .blog-1 .btm i, body main .blog .blogs .blog-2 .btm i, body main .blog .blogs .blog-3 .btm i, body main .blog .blogs .blog-4 .btm i, body main .blog .blogs .blog-5 .btm i, body main .blog .blogs .blog-6 .btm i, body main .blog .blogs .blog-7 .btm i, body main .blog .blogs .blog-8 .btm i, body main .blog .blogs .blog-9 .btm i {
+  position: relative;
+  color: #e2472c;
+  left: 0px;
+  font-size: 12px;
+  -webkit-transition: .5s ease 0s all;
+  transition: .5s ease 0s all;
+}
+
+body main .blog .blogs .blog-1 .btm:hover, body main .blog .blogs .blog-2 .btm:hover, body main .blog .blogs .blog-3 .btm:hover, body main .blog .blogs .blog-4 .btm:hover, body main .blog .blogs .blog-5 .btm:hover, body main .blog .blogs .blog-6 .btm:hover, body main .blog .blogs .blog-7 .btm:hover, body main .blog .blogs .blog-8 .btm:hover, body main .blog .blogs .blog-9 .btm:hover {
+  color: black;
+}
+
+body main .blog .blogs .blog-1 .btm:hover i, body main .blog .blogs .blog-2 .btm:hover i, body main .blog .blogs .blog-3 .btm:hover i, body main .blog .blogs .blog-4 .btm:hover i, body main .blog .blogs .blog-5 .btm:hover i, body main .blog .blogs .blog-6 .btm:hover i, body main .blog .blogs .blog-7 .btm:hover i, body main .blog .blogs .blog-8 .btm:hover i, body main .blog .blogs .blog-9 .btm:hover i {
+  color: black;
+  left: 10px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+}
+
+body header {
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  height: 90px;
+  background-color: #191919;
+  padding: 0px 50px 0px 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 999;
+}
+
+body header .logo {
+  display: block;
+  width: 98px;
+  height: 90px;
+  background: url("../img/logo.png") center no-repeat;
+  background-size: contain;
+}
+
+body header input {
+  display: none;
+}
+
+body header label {
+  display: none;
+  width: 30px;
+  height: 90px;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+body header label .div1, body header label .div2, body header label .div3 {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 10px;
+  -webkit-transition: .3s ease 0s all;
+  transition: .3s ease 0s all;
+}
+
+body header ul {
+  list-style-type: none;
+  font-size: 7pt;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-weight: bold;
+}
+
+body header ul li {
+  margin-right: 10px;
+}
+
+body header ul li a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 8pt;
+  border: 3px solid #191919;
+  letter-spacing: 2px;
+  -webkit-transition: .3s ease 0s;
+  transition: .3s ease 0s;
+}
+
+body header ul li a:hover {
+  color: #e66a55;
+  border: 3px solid #e66a55;
+}
+
+@media (max-width: 992px) {
+  body header ul {
+    display: none;
+    position: absolute;
+    top: 88px;
+    left: 0px;
+    text-align: center;
+    background-color: #191919;
+    width: 100%;
+    height: 193px;
+    margin: 0px;
+    font-size: 9pt;
+  }
+  body header ul li {
+    height: 46px;
+    padding: 0px 60px 0px 40px;
+  }
+  body header ul li a {
+    width: 90%;
+    display: block;
+    position: relative;
+    top: 8px;
+    padding: 15px 0px;
+    border: none;
+    border-top: 1px solid white;
+    -webkit-transition: .3s ease 0s;
+    transition: .3s ease 0s;
+  }
+  body header ul li a:hover {
+    color: white;
+    border: none;
+    background-color: #e66a55;
+    border-top: 1px solid #e66a55;
+  }
+  body header label {
+    display: block;
+    position: absolute;
+    right: 5%;
+  }
+  body header label .open {
+    display: block;
+  }
+  body header input:hover {
+    background-color: red;
+  }
+  body header input:checked ~ ul {
+    display: block;
+  }
+  body header input:checked + label .div1 {
+    position: relative;
+    top: 12px;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+  }
+  body header input:checked + label .div2 {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  body header input:checked + label .div3 {
+    display: none;
+  }
+}
+
+body main .blog {
+  margin: 150px 0px;
+}
+
+body main .blog .blog-info {
+  text-align: center;
+  background-color: #fcfcfc;
+  padding: 0px 0px 30px 0px;
+}
+
+body main .blog .blog-info h2 {
+  font-size: 28pt;
+  letter-spacing: 10px;
+}
+
+body main .blog .blogs {
+  display: -ms-grid;
+  display: grid;
+  margin: 100px 0px;
+  -ms-grid-columns: (360px)[3];
+      grid-template-columns: repeat(3, 360px);
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+      grid-template-areas: "blog-1 blog-2 blog-3" "blog-4 blog-5 blog-6" "blog-7 blog-8 blog-9";
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .blog .blogs .blog-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: blog-1;
+}
+
+body main .blog .blogs .blog-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: blog-2;
+}
+
+body main .blog .blogs .blog-3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: blog-3;
+}
+
+body main .blog .blogs .blog-4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: blog-4;
+}
+
+body main .blog .blogs .blog-5 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: blog-5;
+}
+
+body main .blog .blogs .blog-6 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: blog-6;
+}
+
+body main .blog .blogs .blog-7 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: blog-7;
+}
+
+body main .blog .blogs .blog-8 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: blog-8;
+}
+
+body main .blog .blogs .blog-9 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: blog-9;
+}
+
+@media (max-width: 1199px) {
+  body main .blog .blogs {
+    -ms-grid-columns: (293px)[3];
+        grid-template-columns: repeat(3, 293px);
+    -ms-grid-rows: (auto)[3];
+        grid-template-rows: repeat(3, auto);
+  }
+}
+
+@media (max-width: 991px) {
+  body main .blog .blogs {
+    -ms-grid-columns: (220px)[3];
+        grid-template-columns: repeat(3, 220px);
+    -ms-grid-rows: (auto)[3];
+        grid-template-rows: repeat(3, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  body main .blog .blogs {
+    -ms-grid-columns: (90%)[1];
+        grid-template-columns: repeat(1, 90%);
+    -ms-grid-rows: (auto)[9];
+        grid-template-rows: repeat(9, auto);
+        grid-template-areas: "blog-1" "blog-2" "blog-3" "blog-4" "blog-5" "blog-6" "blog-7" "blog-8" "blog-9";
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    margin-left: 30px;
+  }
+}
+
+body footer {
+  text-align: center;
+}
+
+body footer .footer-info {
+  color: white;
+  background-color: #35373e;
+  height: 160px;
+  padding: 60px 0px 0px 0px;
+}
+
+body footer .footer-info p {
+  width: 60%;
+  margin: 20px auto;
+  color: #cfd1db;
+  font-size: 10pt;
+  line-height: 30px;
+}
+
+body footer .footer-navigation {
+  background-color: #2f3138;
+  padding: 5px 0px;
+}
+
+body footer .footer-navigation ul {
+  list-style: none;
+}
+
+body footer .footer-navigation ul li {
+  display: inline-block;
+}
+
+body footer .footer-navigation ul li a {
+  color: #cfd1db;
+  text-decoration: none;
+  font-size: 8pt;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+@media (max-width: 992px) {
+  body footer .footer-info {
+    padding: 60px 0px 20px 0px;
+    height: auto;
+  }
+  body footer .footer-info P {
+    width: 80%;
+  }
+  body footer .footer-navigation {
+    display: none;
+  }
+}
