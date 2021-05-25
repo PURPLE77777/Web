@@ -1726,6 +1726,7 @@ body footer .footer-navigation ul li a {
 
 @media (max-width: 992px) {
   body footer .footer-info {
+    height: auto;
     padding: 60px 0px 20px 0px;
   }
   body footer .footer-info P {
