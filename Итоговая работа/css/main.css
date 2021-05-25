@@ -243,11 +243,10 @@ body .pages .home-page .pages__home-page__fon:hover a:hover i, body .pages .home
   }
   body .pages .home-page .pages__home-page__fon, body .pages .home-page .pages__sample-page__fon, body .pages .home-page .pages__blog-page__fon, body .pages .sample-page .pages__home-page__fon, body .pages .sample-page .pages__sample-page__fon, body .pages .sample-page .pages__blog-page__fon, body .pages .blog-page .pages__home-page__fon, body .pages .blog-page .pages__sample-page__fon, body .pages .blog-page .pages__blog-page__fon {
     width: 350px;
-    height: auto;
   }
   body .pages .home-page .pages__home-page__fon a, body .pages .home-page .pages__sample-page__fon a, body .pages .home-page .pages__blog-page__fon a, body .pages .sample-page .pages__home-page__fon a, body .pages .sample-page .pages__sample-page__fon a, body .pages .sample-page .pages__blog-page__fon a, body .pages .blog-page .pages__home-page__fon a, body .pages .blog-page .pages__sample-page__fon a, body .pages .blog-page .pages__blog-page__fon a {
-    left: 40%;
-    right: 40%;
+    left: 38%;
+    right: 38%;
   }
   body .pages .home-page .pages__home-page__fon a, body .pages .sample-page .pages__home-page__fon a, body .pages .blog-page .pages__home-page__fon a {
     top: 35%;
